@@ -21,15 +21,15 @@
 
 | 类名                 | 说明              |
 |:------------------:|:---------------:|
-| HSSFWorkbook       | Excel的文档对象      |
-| HSSFSheet          | Excel的Sheet     |
-| HSSFRow            | Excel的行         |
-| HSSFCell           | Excel的单元格       |
-| HSSFFont           | Excel的字体        |
-| HSSFDataFormat     | Excel单元格的日期格式   |
-| HSSFHeader         | Excel文档Sheet的页眉 |
-| HSSFFooter         | Excel文档Sheet的页脚 |
-| HSSFCellStyle      | Excel单元格样式      |
-| HSSFDateUtil       | 日期              |
-| HSSFPrintSetup     | 打印              |
-| HSSFErrorConstants | 错误信息表           |
+| Workbook       | Excel的文档对象      |
+| Sheet          | Excel的Sheet     |
+| Row            | Excel的行         |
+| Cell           | Excel的单元格       |
+| Font           | Excel的字体        |
+| DataFormat     | Excel单元格的日期格式   |
+| Header         | Excel文档Sheet的页眉 |
+| Footer         | Excel文档Sheet的页脚 |
+| CellStyle      | Excel单元格样式      |
+| DateUtil       | 日期              |
+| PrintSetup     | 打印              |
+| ErrorConstants | 错误信息表           |
