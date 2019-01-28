@@ -53,23 +53,7 @@ public class Operation {
 		doc.write(output);
 		output.close();
 	}
-	/**
-	 * 尝试读取.xls文件内容
-	 */
-	public void readXls(String path) {
-		String suffix = path.substring(path.lastIndexOf("."));
-		if(!suffix.equals(".xls")) {
-			System.out.println("请输入.xls文件");
-			return;
-		}
-		//创建一个工作簿
-		Workbook doc = new HSSFWorkbook(); 
-		File file = new File(path);
-		if(file.exists()) {
-			//若存在重复文件则删除
-			file.delete();
-		}
-	}
+
 	/**
 	 * 创建.xlsx文件使用XSSF包
 	 */
